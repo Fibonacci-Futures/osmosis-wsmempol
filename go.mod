@@ -380,7 +380,8 @@ replace (
 	github.com/CosmWasm/wasmd => github.com/osmosis-labs/wasmd v0.45.0-osmo
 
 	// cometbft is replaced to print custom app hash logs
-	github.com/cometbft/cometbft => github.com/osmosis-labs/cometbft v0.37.2-v21-osmo-1
+	//github.com/cometbft/cometbft => github.com/osmosis-labs/cometbft v0.37.2-v21-osmo-1
+	github.com/cometbft/cometbft => https://github.com/Fibonacci-Futures/osmosid-cometbft  osmo-mempol
 
 	// v1.0.0-beta.3 is incompatible, so we use v1.0.0-beta.2
 	github.com/cosmos/cosmos-proto => github.com/cosmos/cosmos-proto v1.0.0-beta.2
